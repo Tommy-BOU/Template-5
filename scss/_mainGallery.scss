@@ -1,0 +1,40 @@
+main.gallery {
+    $color2: #F10486;
+
+    .photo-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+        justify-content: center;
+        padding: 20px;
+
+        .photo {
+            min-width: 200px;
+            margin: 5px;
+            overflow: hidden;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+
+            &:hover {
+                transform: scale(1.15);
+                transition: 0.3s ease-in-out;
+            }
+        }
+    }
+
+    h6 {
+        color: $color2;
+        margin: 20px 0;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-weight: bold;
+    }
+
+    p {
+        font-weight: 300;
+    }
+}

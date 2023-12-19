@@ -1,0 +1,68 @@
+main.speakers, .index-speakers {
+
+    padding-bottom: 50px;
+
+    .section-intro-top h6 {
+        margin: 20px 0;
+        color: #F10486;
+    }
+
+    .section-intro-top h2 {
+        font-weight: bold;
+
+    }
+
+    .section-intro-top p {
+        font-weight: 300;
+
+    }
+
+    /* ---------------------------------------overlay text-------------------- */
+
+    .overlay-text {
+        position: absolute;
+        bottom: 20%;
+        left: 25%;
+        background-color: transparent;
+        color: #fff;
+        padding: 20px 30px;
+        font-size: 30px;
+        text-align: left;
+        transform: translateX(-20%);
+        opacity: 0;
+        text-decoration: solid;
+        display: flex;
+
+        gap: 10px;
+    }
+
+
+    .card {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .overlay-text:hover {
+        transform: translateX(0);
+        opacity: 1;
+        transition: .5s ease-out;
+    }
+
+    @media screen and (min-width:844px) and (max-width: 1000px) {
+        .overlay-text {
+            left: 5%;
+        }
+    }
+
+    .fa-facebook-official{
+        color: blue;
+    }
+
+    .fa-linkedin{
+        color: #0077b5;
+    }
+
+    .fa-instagram{
+        color: #F10486;
+    }
+}

@@ -1,0 +1,27 @@
+@use "header";
+
+@use "footer";
+
+@use "index";
+
+@use "mainSchedule";
+
+@use "mainContact";
+
+@use "mainGallery";
+
+@use "mainBlog";
+
+@use "mainPricing";
+
+@use "mainSpeakers";
+
+@use "banner";
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
